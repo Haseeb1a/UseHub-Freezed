@@ -1,0 +1,76 @@
+// GENERATED CODE - DO NOT MODIFY BY HAND
+
+part of 'github_model.dart';
+
+// **************************************************************************
+// JsonSerializableGenerator
+// **************************************************************************
+
+_$GithubImpl _$$GithubImplFromJson(Map<String, dynamic> json) => _$GithubImpl(
+      login: json['login'] as String?,
+      id: json['id'] as int?,
+      avatarUrl: json['avatar_url'] as String?,
+      gravatarId: json['gravatarId'] as String?,
+      url: json['url'] as String?,
+      htmlUrl: json['html_url'] as String?,
+      followersUrl: json['followersUrl'] as String?,
+      followingUrl: json['followingUrl'] as String?,
+      gistsUrl: json['gistsUrl'] as String?,
+      starredUrl: json['starredUrl'] as String?,
+      subscriptionsUrl: json['subscriptionsUrl'] as String?,
+      organizationsUrl: json['organizationsUrl'] as String?,
+      reposUrl: json['reposUrl'] as String?,
+      eventsUrl: json['eventsUrl'] as String?,
+      receivedEventsUrl: json['receivedEventsUrl'] as String?,
+      type: json['type'] as String?,
+      siteAdmin: json['siteAdmin'] as bool?,
+      name: json['name'] as String?,
+      company: json['company'] as String?,
+      blog: json['blog'] as String?,
+      location: json['location'] as String?,
+      email: json['email'] as String?,
+      hireable: json['hireable'] as String?,
+      bio: json['bio'] as String?,
+      twitterUsername: json['twitterUsername'] as String?,
+      publicRepos: json['public_repos'] as int?,
+      publicGits: json['public_gists'] as int?,
+      followers: json['followers'] as int?,
+      following: json['following'] as int?,
+      createdAt: json['created_at'] as String?,
+      updatedAt: json['updated_at'] as String?,
+    );
+
+Map<String, dynamic> _$$GithubImplToJson(_$GithubImpl instance) =>
+    <String, dynamic>{
+      'login': instance.login,
+      'id': instance.id,
+      'avatar_url': instance.avatarUrl,
+      'gravatarId': instance.gravatarId,
+      'url': instance.url,
+      'html_url': instance.htmlUrl,
+      'followersUrl': instance.followersUrl,
+      'followingUrl': instance.followingUrl,
+      'gistsUrl': instance.gistsUrl,
+      'starredUrl': instance.starredUrl,
+      'subscriptionsUrl': instance.subscriptionsUrl,
+      'organizationsUrl': instance.organizationsUrl,
+      'reposUrl': instance.reposUrl,
+      'eventsUrl': instance.eventsUrl,
+      'receivedEventsUrl': instance.receivedEventsUrl,
+      'type': instance.type,
+      'siteAdmin': instance.siteAdmin,
+      'name': instance.name,
+      'company': instance.company,
+      'blog': instance.blog,
+      'location': instance.location,
+      'email': instance.email,
+      'hireable': instance.hireable,
+      'bio': instance.bio,
+      'twitterUsername': instance.twitterUsername,
+      'public_repos': instance.publicRepos,
+      'public_gists': instance.publicGits,
+      'followers': instance.followers,
+      'following': instance.following,
+      'created_at': instance.createdAt,
+      'updated_at': instance.updatedAt,
+    };
